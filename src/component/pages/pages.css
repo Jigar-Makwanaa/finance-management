@@ -64,10 +64,35 @@
 .add-expenses-section .container .row .main .form form .btn button {
   width: 100%;
   background-color: #42b5aa;
-  color: #d8fffb;
+  color: #041a17;
   font-weight: 600;
   font-size: 16px;
   border: 0px;
   padding: 10px;
   border-radius: 12px;
+}
+
+.view-expenses-section {
+  padding: 40px 0px;
+}
+.view-expenses-section .container .row .main {
+  justify-content: center;
+}
+.view-expenses-section .container .row .main .table {
+  width: 75%;
+}
+.view-expenses-section .container .row .main .table table {
+  width: 100%;
+  border: 2px solid gray;
+  padding: 12px;
+}
+.view-expenses-section .container .row .main .table table thead tr th {
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  border: 2px solid gray;
+}
+.view-expenses-section .container .row .main .table table tbody tr td {
+  color: white;
+  padding: 10px 15px;
 }/*# sourceMappingURL=pages.css.map */

@@ -76,7 +76,7 @@
                             button {
                                 width: 100%;
                                 background-color: #42b5aa;
-                                color: #d8fffb;
+                                color: #041a17;
                                 font-weight: 600;
                                 font-size: 16px;
                                 border: 0px;
@@ -92,3 +92,40 @@
 }
 
 // add-expenses end
+
+.view-expenses-section {
+    padding: 40px 0px;
+    .container {
+        .row {
+            .main {
+                justify-content: center;
+                .table {
+                    width: 75%;
+                    table {
+                        width: 100%;
+                        border: 2px solid gray;
+                        padding: 12px;
+                        thead {
+                            tr {
+                                th {
+                                    padding: 10px 15px;
+                                    color: #ffffff99;
+                                    text-transform: uppercase;
+                                    border: 2px solid gray;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    color: white;
+                                    padding: 10px 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
