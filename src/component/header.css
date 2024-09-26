@@ -1,0 +1,41 @@
+header {
+  background-color: #282c34;
+  padding: 30px;
+}
+header .row .main {
+  align-items: center;
+  justify-content: space-between;
+}
+header .row .main .logo .name .span-title {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+}
+header .row .main .logo .name .span-title:nth-child(1) {
+  color: #d8fffb;
+}
+header .row .main .logo .name .span-title:nth-child(2) {
+  color: rgb(146, 233, 220);
+}
+header .row .main .logo .name .span-title:nth-child(3) {
+  color: rgb(0, 218, 196);
+}
+header .row .main .logo .name .span-title:nth-child(4) {
+  color: rgb(0, 199, 171);
+}
+header .row .main .logo .name .span-title:nth-child(5) {
+  color: rgb(0, 168, 133);
+}
+header .row .main .logo .name .span-title:nth-child(6) {
+  color: rgb(0, 137, 102);
+}
+header .row .main .menu ul li {
+  color: #00dac6;
+  text-transform: capitalize;
+  padding: 0px 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+header .row .main .menu ul li a {
+  color: #00dac6;
+}/*# sourceMappingURL=header.css.map */

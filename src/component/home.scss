@@ -1,0 +1,119 @@
+// panding-task start
+
+.pandinng-task-section {
+    padding: 20px 0px;
+    padding-top: 40px;
+
+    .container {
+        .row {
+            .main {
+                justify-content: space-between;
+
+                .box {
+                    background-color: #282c34;
+                    border-radius: 12px;
+                    width: 49%;
+
+                    .content {
+
+                        .heading {
+                            border-bottom: 2px solid gray;
+                            padding: 15px 20px;
+
+                            h2 {
+                                margin: 0px;
+                                color: white;
+                            }
+                        }
+
+                        .details {
+                            padding: 15px 20px;
+                            justify-content: space-between;
+
+                            ul {
+                                margin: 0px;
+                                padding: 0px;
+
+                                li {
+                                    padding: 5px 0px;
+                                    color: white;
+                                    font-weight: 400;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+
+                                    span {
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+
+                            .des {
+                                h3 {
+                                    margin: 0px;
+                                    padding: 10px 0px;
+                                    color: white;
+                                    font-weight: 600;
+                                }
+
+                                ul {
+                                    li {
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// panding-task end 
+
+// quick-section start
+.quick-section {
+    padding: 20px 0px;
+
+    .container {
+        .row {
+            .main {
+                background-color: #282c34;
+                border-radius: 12px;
+                padding-top: 15px;
+
+                .head {
+                    border-bottom: 2px solid gray;
+                    padding: 10px 15px;
+
+                    h3 {
+                        margin: 0px;
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+
+                .all-box {
+                    padding: 20px;
+                    justify-content: space-between;
+                    .box {
+                        background-color: #687285;
+                        width: 24%;
+                        border-radius: 12px;
+
+                        .content {
+                            padding: 20px 15px ;
+                            h3 {
+                                margin: 0px;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// quick-section end 

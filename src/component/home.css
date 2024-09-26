@@ -1,0 +1,82 @@
+.pandinng-task-section {
+  padding: 20px 0px;
+  padding-top: 40px;
+}
+.pandinng-task-section .container .row .main {
+  justify-content: space-between;
+}
+.pandinng-task-section .container .row .main .box {
+  background-color: #282c34;
+  border-radius: 12px;
+  width: 49%;
+}
+.pandinng-task-section .container .row .main .box .content .heading {
+  border-bottom: 2px solid gray;
+  padding: 15px 20px;
+}
+.pandinng-task-section .container .row .main .box .content .heading h2 {
+  margin: 0px;
+  color: white;
+}
+.pandinng-task-section .container .row .main .box .content .details {
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+.pandinng-task-section .container .row .main .box .content .details ul {
+  margin: 0px;
+  padding: 0px;
+}
+.pandinng-task-section .container .row .main .box .content .details ul li {
+  padding: 5px 0px;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pandinng-task-section .container .row .main .box .content .details ul li span {
+  display: inline-block;
+}
+.pandinng-task-section .container .row .main .box .content .details .des h3 {
+  margin: 0px;
+  padding: 10px 0px;
+  color: white;
+  font-weight: 600;
+}
+.pandinng-task-section .container .row .main .box .content .details .des ul li {
+  display: block;
+}
+
+.quick-section {
+  padding: 20px 0px;
+}
+.quick-section .container .row .main {
+  background-color: #282c34;
+  border-radius: 12px;
+  padding-top: 15px;
+}
+.quick-section .container .row .main .head {
+  border-bottom: 2px solid gray;
+  padding: 10px 15px;
+}
+.quick-section .container .row .main .head h3 {
+  margin: 0px;
+  color: white;
+  font-weight: 600;
+}
+.quick-section .container .row .main .all-box {
+  padding: 20px;
+  justify-content: space-between;
+}
+.quick-section .container .row .main .all-box .box {
+  background-color: #687285;
+  width: 24%;
+  border-radius: 12px;
+}
+.quick-section .container .row .main .all-box .box .content {
+  padding: 20px 15px;
+}
+.quick-section .container .row .main .all-box .box .content h3 {
+  margin: 0px;
+  color: white;
+}/*# sourceMappingURL=home.css.map */
